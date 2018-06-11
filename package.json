@@ -1,0 +1,30 @@
+{
+  "name": "weather-cli",
+  "version": "1.0.0",
+  "description": "Simple Weather App",
+  "main": "index.js",
+  "preferGlobal": true,
+  "bin": "./index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasonbrandoo/simple_weatherapp.git"
+  },
+  "author": "Jason",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jasonbrandoo/simple_weatherapp/issues"
+  },
+  "homepage": "https://github.com/jasonbrandoo/simple_weatherapp#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "commander": "^2.15.1",
+    "dotenv": "^6.0.0",
+    "inquirer": "^6.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1"
+  }
+}
